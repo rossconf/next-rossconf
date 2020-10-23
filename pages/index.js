@@ -1,9 +1,13 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 // import ReactMarkdown from 'react-markdown'
-import { default as event} from '../src/remote2020'
+import { default as event } from '../src/remoteApril2021'
 
 export default function Home() {
+  const monthDayYear = () => {
+    return event.date.toLocaleDateString().split("/")
+  }
+
   return <>
     <Head>
       <title>RossConf</title>
@@ -18,12 +22,13 @@ export default function Home() {
       <h1 className={styles.title}>
         Welcome to <a href="https://rossconf.io">Rossconf!</a>
       </h1>
+      {event.title} - {monthDayYear()[2]}
 
-      {event.title} - {year}
-      {day} - {month}
+      {monthDayYear()[1]} - {monthDayYear()[0]}
     </main>
   </>
 }
+
 //   return (
 //     <div className={styles.container}>
 //       <Head>
