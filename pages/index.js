@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import ReactMarkdown from 'react-markdown'
-import projects from '../src/projects'
+// import projects from '../src/events'
 
 export default function Home() {
   return <>
