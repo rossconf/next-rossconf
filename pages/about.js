@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import ReactMarkdown from 'react-markdown'
 
 function About() {
