@@ -1,5 +1,7 @@
 import Head from 'next/head'
+import styles from '../styles/Home.module.css'
 import ReactMarkdown from 'react-markdown'
+import events from '../src/events'
 
 function About() {
   return <>
@@ -17,7 +19,7 @@ function About() {
       Welcome to <a href="https://rossconf.io">Rossconf!</a>
     </h1>
 
-    {projects.remote2020.title}
+    {events.remote2020.title}
 
     <ReactMarkdown source={
 `

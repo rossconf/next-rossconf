@@ -1,4 +1,5 @@
-const events = {
+const events
+ = {
   remote2020: {
     title: 'Remote 2020',
     date: '',
@@ -12,4 +13,4 @@ const events = {
   }
 }
 
-export default projects
+export default events

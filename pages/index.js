@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import ReactMarkdown from 'react-markdown'
-// import projects from '../src/events'
+import events from '../src/events'
 
 export default function Home() {
   return <>
@@ -19,7 +19,7 @@ export default function Home() {
         Welcome to <a href="https://rossconf.io">Rossconf!</a>
       </h1>
 
-      {projects.remote2020.title}
+      {events.remote2020.title}
     </main>
   </>
 }
