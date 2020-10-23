@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import ReactMarkdown from 'react-markdown'
-import events from '../src/events'
+// import ReactMarkdown from 'react-markdown'
+import { default as event} from '../src/remote2020'
 
 export default function Home() {
   return <>
@@ -19,7 +19,8 @@ export default function Home() {
         Welcome to <a href="https://rossconf.io">Rossconf!</a>
       </h1>
 
-      {events.remote2020.title}
+      {event.title} - {year}
+      {day} - {month}
     </main>
   </>
 }
@@ -84,6 +85,8 @@ export default function Home() {
 //     </div>
 //   )
 // }
+
+
 
 // const fromMarkdown = (md) => {
 //   <ReactMarkdown source={md} />

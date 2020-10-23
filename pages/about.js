@@ -23,9 +23,9 @@ function About() {
 
     <ReactMarkdown source={
 `
-The first ever ROSS Conf took place in Vienna, Austria, April 25, 2015. The projects participating: [exercism.io](https://exercism.io), with [Katrina Owen](https://twitter.com/kytrinyx), [RVM](http://rvm.io/) (aka the first version manager for installing Ruby dependencies), with [Michal Papis](https://twitter.com/mpapis), [Diaspora](https://joindiaspora.com/), with Lisa Passing, [reek](https://github.com/troessner/reek), with [Piotr Szotkowski](https://twitter.com/chastell), and [Yaks](https://github.com/plexus/yaks), with [Arne Brasseur](https://twitter.com/plexus). The founding team included [Aaron Cruz](https://twitter.com/mraaroncruz), [Sebastian Gräßl](https://twitter.com/bastilian), [Kurt Lojka](https://twitter.com/kurtfresh), [Laura Gaetano](https://twitter.com/alicetragedy), [Pilar Huidobro](https://twitter.com/Althaire), [Ramon Huidobro](https://twitter.com/hola_soy_milk), and [Shelly Coen](https://twitter.com/shellycoen).  
+The first ever ROSS Conf took place in Vienna, Austria, April 25, 2015. The projects participating: [exercism.io](https://exercism.io), with [Katrina Owen](https://twitter.com/kytrinyx), [RVM](http://rvm.io/) (aka the first version manager for installing Ruby dependencies), with [Michal Papis](https://twitter.com/mpapis), [Diaspora](https://joindiaspora.com/), with Lisa Passing, [reek](https://github.com/troessner/reek), with [Piotr Szotkowski](https://twitter.com/chastell), and [Yaks](https://github.com/plexus/yaks), with [Arne Brasseur](https://twitter.com/plexus). The founding team included [Aaron Cruz](https://twitter.com/mraaroncruz), [Sebastian Gräßl](https://twitter.com/bastilian), [Kurt Lojka](https://twitter.com/kurtfresh), [Laura Gaetano](https://twitter.com/alicetragedy), [Pilar Huidobro](https://twitter.com/Althaire), [Ramon Huidobro](https://twitter.com/hola_soy_milk), and [Shelly Coen](https://twitter.com/shellycoen).
 
-Later that same year we ran a second ROSS Conf, in Berlin, Germany. The projects participating for the September 26 edition, hosted by Wooga, were: [Panamax](http://panamax.io/), with [Laura Frank](https://twitter.com/rhein_wein) (now Laura Tacho), [Bundler](http://bundler.io/), with [André Arko](https://twitter.com/indirect), [Ruby Object Mapper (ROM)](http://rom-rb.org/), with [Piotr Solnica](https://twitter.com/_solnic_), [Speakerinnen](https://speakerinnen.org/), with [Tyranja](https://twitter.com/_tyranja_), and [Ruby](https://github.com/ruby/ruby) itself, with Zachary Scott.   
+Later that same year we ran a second ROSS Conf, in Berlin, Germany. The projects participating for the September 26 edition, hosted by Wooga, were: [Panamax](http://panamax.io/), with [Laura Frank](https://twitter.com/rhein_wein) (now Laura Tacho), [Bundler](http://bundler.io/), with [André Arko](https://twitter.com/indirect), [Ruby Object Mapper (ROM)](http://rom-rb.org/), with [Piotr Solnica](https://twitter.com/_solnic_), [Speakerinnen](https://speakerinnen.org/), with [Tyranja](https://twitter.com/_tyranja_), and [Ruby](https://github.com/ruby/ruby) itself, with Zachary Scott.
 Team members for Berlin included [Aaron Cruz](https://twitter.com/mraaroncruz), [Sebastian Gräßl](https://twitter.com/bastilian), [Laura Gaetano](https://twitter.com/alicetragedy), [Gosia Cieśla](https://twitter.com/gosia_ciesla), [Sara Regan](https://twitter.com/sareg0).
 
 For the 2018 ROSS Conf location, we picked Amsterdam. May 11-12, participants worked on: [exercism.io](http://exercism.io/) ([maintainer interview with Katrina Owen](https://vimeo.com/278623931)), [RVM](http://rvm.io/) ([maintainer interview with Michal Papis](https://vimeo.com/279013852)), [Homebrew](https://brew.sh/) ([maintainer interview with Alyssa Ross](https://vimeo.com/276832570)), [Support Central](https://github.com/phusion/support_central/) ([interview with Hongli Lai](https://vimeo.com/276832741)), [Foreman](https://theforeman.org/) ([interview with Tomer Brisker](https://vimeo.com/276832413)], and the [WeTransfer API](https://wetransfer.github.io/] (interview with [Noah Berman](https://vimeo.com/280321413)). Team members: [Rayta van Rijswijk](https://twitter.com/raytalks), [Lieke Boon](https://twitter.com/Lieke2208), and [Sebastian Gräßl](https://twitter.com/bastilian).
@@ -55,9 +55,10 @@ For the 2018 ROSS Conf location, we picked Amsterdam. May 11-12, participants wo
 > Tyranja (Speakerinnen)
 
 `
-    } />
-  </main>
-</>
+      } />
+      </main>
+    </>
+  )
 }
 
 export default About
