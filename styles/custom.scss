@@ -1,0 +1,21 @@
+// Include bootstrap source
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// add custom bootstrap overrides
+
+/* unvisited link */
+a:link {
+    color: $pink;
+}
+/* visited link */
+a:visited  {
+    color:$red;
+}
+/* mouse over link */
+a:hover {
+    color: $red;
+}
+/* selected link */
+a:active {
+    color: $red;
+}
