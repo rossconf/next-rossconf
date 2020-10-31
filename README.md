@@ -1,30 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Rossconf
 
-## Getting Started
+## local development
 
-First, run the development server:
+We have included devcontainer for you to get started with an completely configued and ready to go NodeJS 12 development environment. 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+In order to make use of this container you will need to use VSCode with the [remote containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+When you open the project in VSCode you will be asked to install the recommended plugins which inculde the remote containers plugin.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+If you are connected to the remote container you can use the `Teminal -> Run Task` option to run the `npm dev` task to start the dev server. After  you have done this you can connect to [http://localhost:3000](http://localhost:3000)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you like to get a shell on the devcontainer you can start a new bash shell. This will connect you to the devcontainer. The node user has sudo access, so you can install packages in the container if you would like them. Please note, this will not persist, so you might want to make a PR againt the Dockerfile.
