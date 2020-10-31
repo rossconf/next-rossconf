@@ -1,25 +1,26 @@
 import Head from 'next/head'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../styles/Home.module.css'
 import ReactMarkdown from 'react-markdown'
 
 function About() {
-  return(<>
+  return (<>
     <Head>
-    <title>ROSS Conf</title>
-    <link rel="icon" href="/favicon.ico" />
-  </Head>
+      <title>ROSS Conf</title>
+      <link rel="icon" href="/favicon.ico" />
+    </Head>
 
-  <aside>
-    <a href='/about'>About ROSS Conf</a>
-  </aside>
+    <aside>
+      <a href='/about'>About ROSS Conf</a>
+    </aside>
 
-  <main className={styles.main}>
-    <h1 className={styles.title}>
-      Welcome to <a href="https://rossconf.io">ROSS Conf!</a>
-    </h1>
+    <main className={styles.main}>
+      <h1 className={styles.title}>
+        Welcome to <a href="https://rossconf.io">ROSS Conf!</a>
+      </h1>
 
-    <ReactMarkdown source={
-`
+      <ReactMarkdown source={
+        `
 The first ever ROSS Conf took place in Vienna, Austria, April 25, 2015. The projects participating: [exercism.io](https://exercism.io), with [Katrina Owen](https://twitter.com/kytrinyx), [RVM](http://rvm.io/) (aka the first version manager for installing Ruby dependencies), with [Michal Papis](https://twitter.com/mpapis), [Diaspora](https://joindiaspora.com/), with Lisa Passing, [reek](https://github.com/troessner/reek), with [Piotr Szotkowski](https://twitter.com/chastell), and [Yaks](https://github.com/plexus/yaks), with [Arne Brasseur](https://twitter.com/plexus). The founding team included [Aaron Cruz](https://twitter.com/mraaroncruz), [Sebastian Gräßl](https://twitter.com/bastilian), [Kurt Lojka](https://twitter.com/kurtfresh), [Laura Gaetano](https://twitter.com/alicetragedy), [Pilar Huidobro](https://twitter.com/Althaire), [Ramon Huidobro](https://twitter.com/hola_soy_milk), and [Shelly Coen](https://twitter.com/shellycoen).
 
 Later that same year we ran a second ROSS Conf, in Berlin, Germany. The projects participating for the September 26 edition, hosted by Wooga, were: [Panamax](http://panamax.io/), with [Laura Frank](https://twitter.com/rhein_wein) (now Laura Tacho), [Bundler](http://bundler.io/), with [André Arko](https://twitter.com/indirect), [Ruby Object Mapper (ROM)](http://rom-rb.org/), with [Piotr Solnica](https://twitter.com/_solnic_), [Speakerinnen](https://speakerinnen.org/), with [Tyranja](https://twitter.com/_tyranja_), and [Ruby](https://github.com/ruby/ruby) itself, with Zachary Scott.
@@ -60,8 +61,8 @@ For the 2018 ROSS Conf location, we picked Amsterdam. May 11-12, participants wo
 > Tyranja (Speakerinnen)
 `
       } />
-      </main>
-    </>
+    </main>
+  </>
   )
 }
 

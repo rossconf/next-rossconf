@@ -1,5 +1,7 @@
 import Head from 'next/head'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../styles/Home.module.css'
+
 // import ReactMarkdown from 'react-markdown'
 import { default as event } from '../src/remoteApril2021'
 
