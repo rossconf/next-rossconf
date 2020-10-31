@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+
 // import ReactMarkdown from 'react-markdown'
 import { default as event } from '../src/remoteApril2021'
 
@@ -18,14 +18,14 @@ export default function Home() {
       <a href='/about'>Our about page</a>
     </aside>
 
-    <main className={styles.main}>
-      <h1 className={styles.title}>
+    <div className="container-xl">
+      <h1>
         Welcome to <a href="https://rossconf.io">Rossconf!</a>
       </h1>
       {event.title} - {monthDayYear()[2]}
 
       {monthDayYear()[1]} - {monthDayYear()[0]}
-    </main>
+    </div>
   </>
 }
 
